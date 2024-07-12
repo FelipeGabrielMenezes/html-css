@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de Hover</title>
+
+
+        <Style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+            div > p {
+                display: none; /* display é relacioonado com a exibição do conteúdo */
+
+            } /* Aqui os únios parágrafos que serão alterados, serão os filhos da div */
+
+            div:hover > p {
+                display:block;
+                color: white;
+                background-color: red;
+                width: 300px;
+
+            }
+
+            div:hover {
+                color: red;
+                
+            }
+
+        </Style>
+
+    </head>
+
+    <body>
+        
+        <h1>Exemplo de Hover</h1>
+
+            <div>
+                <p>Passe o mouse sobre o texto abaixo</p>
+            </div>
+
+            <div>
+
+                Passe o mouse aqui
+                <p>TEXTO ESCONDIDO</p>
+
+            </div>
+
+            <div>
+                <p>Fim do Exemplo</p>
+            </div>
+
+    </body>
+
+</html>
