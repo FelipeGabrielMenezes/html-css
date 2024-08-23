@@ -13,23 +13,19 @@
             }
 
             table {
+                height: 400px;
                 width: 400px;
                 border-collapse: collapse;
-                border: 5px solid red;
             }
 
-            tr.linha {
-                background-color: gray;
-            }
-
+      
             td {
                 border: 1px solid black;
                 padding: 8px;
+                text-align: center; /* Alinhamento horizontal */
+                vertical-align: middle; /* Alinhamento horizontal: top, middle, bottom*/
             }
 
-            td.dado {
-                background-color: yellow;
-            }
 
         </style>
 
@@ -53,13 +49,13 @@
                     <td>B1
                     <td>C1
             
-                <tr class="linha"> <!-- Segunda linha -->
+                <tr> <!-- Segunda linha -->
                     <td>A2
                     <td>B2
                     <td>C2
 
                 <tr> <!-- Terceita Linha -->
-                    <td class="dado">A3</td>
+                    <td>A3</td>
                     <td>B3</td>
                     <td>C3</td>
                 </tr>
